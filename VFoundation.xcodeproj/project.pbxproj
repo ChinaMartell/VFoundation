@@ -16,6 +16,24 @@
 		43972E3B18CD7E9400F1CC3E /* libVFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43972E2318CD7E9400F1CC3E /* libVFoundation.a */; };
 		43972E4118CD7E9400F1CC3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43972E3F18CD7E9400F1CC3E /* InfoPlist.strings */; };
 		43972E4318CD7E9400F1CC3E /* VFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43972E4218CD7E9400F1CC3E /* VFoundationTests.m */; };
+		43972E5118CD7EFC00F1CC3E /* NSString+VFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43972E5018CD7EFC00F1CC3E /* NSString+VFoundation.m */; };
+		43972E5418CD7F4500F1CC3E /* NSMutableString+VFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43972E5318CD7F4500F1CC3E /* NSMutableString+VFoundation.m */; };
+		43972E5C18CD832200F1CC3E /* NSArray+VFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43972E5B18CD832200F1CC3E /* NSArray+VFoundation.m */; };
+		43972E5F18CD833400F1CC3E /* NSMutableArray+VFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43972E5E18CD833400F1CC3E /* NSMutableArray+VFoundation.m */; };
+		43972E6218CD834400F1CC3E /* NSDictionary+VFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43972E6118CD834400F1CC3E /* NSDictionary+VFoundation.m */; };
+		43972E6518CD835400F1CC3E /* NSMutableDictionary+VFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43972E6418CD835400F1CC3E /* NSMutableDictionary+VFoundation.m */; };
+		43972E6818CD836300F1CC3E /* NSSet+VFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43972E6718CD836300F1CC3E /* NSSet+VFoundation.m */; };
+		43972E6B18CD837200F1CC3E /* NSMutableSet+VFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43972E6A18CD837200F1CC3E /* NSMutableSet+VFoundation.m */; };
+		43972E6E18CD83A000F1CC3E /* NSNumber+VFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43972E6D18CD83A000F1CC3E /* NSNumber+VFoundation.m */; };
+		43972E7118CD83BD00F1CC3E /* NSData+VFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43972E7018CD83BD00F1CC3E /* NSData+VFoundation.m */; };
+		43972E7418CD83CD00F1CC3E /* NSMutableData+VFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43972E7318CD83CD00F1CC3E /* NSMutableData+VFoundation.m */; };
+		43972E7718CD83DD00F1CC3E /* NSDate+VFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43972E7618CD83DD00F1CC3E /* NSDate+VFoundation.m */; };
+		43972E7A18CD840600F1CC3E /* NSURL+VFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43972E7918CD840600F1CC3E /* NSURL+VFoundation.m */; };
+		43972E7D18CD841800F1CC3E /* NSMutableURLRequest+VFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43972E7C18CD841800F1CC3E /* NSMutableURLRequest+VFoundation.m */; };
+		43972E8018CD843800F1CC3E /* NSURLRequest+VFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43972E7F18CD843800F1CC3E /* NSURLRequest+VFoundation.m */; };
+		43972E8318CD844800F1CC3E /* NSValue+VFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43972E8218CD844800F1CC3E /* NSValue+VFoundation.m */; };
+		43972E8618CD849600F1CC3E /* NSCache+VFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43972E8518CD849600F1CC3E /* NSCache+VFoundation.m */; };
+		43972E8918CD84AD00F1CC3E /* NSBundle+VFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43972E8818CD84AD00F1CC3E /* NSBundle+VFoundation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +71,42 @@
 		43972E3E18CD7E9400F1CC3E /* VFoundationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VFoundationTests-Info.plist"; sourceTree = "<group>"; };
 		43972E4018CD7E9400F1CC3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		43972E4218CD7E9400F1CC3E /* VFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFoundationTests.m; sourceTree = "<group>"; };
+		43972E4F18CD7EFC00F1CC3E /* NSString+VFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VFoundation.h"; sourceTree = "<group>"; };
+		43972E5018CD7EFC00F1CC3E /* NSString+VFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VFoundation.m"; sourceTree = "<group>"; };
+		43972E5218CD7F4500F1CC3E /* NSMutableString+VFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+VFoundation.h"; sourceTree = "<group>"; };
+		43972E5318CD7F4500F1CC3E /* NSMutableString+VFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+VFoundation.m"; sourceTree = "<group>"; };
+		43972E5A18CD832200F1CC3E /* NSArray+VFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+VFoundation.h"; sourceTree = "<group>"; };
+		43972E5B18CD832200F1CC3E /* NSArray+VFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+VFoundation.m"; sourceTree = "<group>"; };
+		43972E5D18CD833400F1CC3E /* NSMutableArray+VFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+VFoundation.h"; sourceTree = "<group>"; };
+		43972E5E18CD833400F1CC3E /* NSMutableArray+VFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+VFoundation.m"; sourceTree = "<group>"; };
+		43972E6018CD834400F1CC3E /* NSDictionary+VFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+VFoundation.h"; sourceTree = "<group>"; };
+		43972E6118CD834400F1CC3E /* NSDictionary+VFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+VFoundation.m"; sourceTree = "<group>"; };
+		43972E6318CD835400F1CC3E /* NSMutableDictionary+VFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+VFoundation.h"; sourceTree = "<group>"; };
+		43972E6418CD835400F1CC3E /* NSMutableDictionary+VFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+VFoundation.m"; sourceTree = "<group>"; };
+		43972E6618CD836300F1CC3E /* NSSet+VFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+VFoundation.h"; sourceTree = "<group>"; };
+		43972E6718CD836300F1CC3E /* NSSet+VFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+VFoundation.m"; sourceTree = "<group>"; };
+		43972E6918CD837200F1CC3E /* NSMutableSet+VFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+VFoundation.h"; sourceTree = "<group>"; };
+		43972E6A18CD837200F1CC3E /* NSMutableSet+VFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+VFoundation.m"; sourceTree = "<group>"; };
+		43972E6C18CD83A000F1CC3E /* NSNumber+VFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+VFoundation.h"; sourceTree = "<group>"; };
+		43972E6D18CD83A000F1CC3E /* NSNumber+VFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+VFoundation.m"; sourceTree = "<group>"; };
+		43972E6F18CD83BD00F1CC3E /* NSData+VFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+VFoundation.h"; sourceTree = "<group>"; };
+		43972E7018CD83BD00F1CC3E /* NSData+VFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+VFoundation.m"; sourceTree = "<group>"; };
+		43972E7218CD83CD00F1CC3E /* NSMutableData+VFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+VFoundation.h"; sourceTree = "<group>"; };
+		43972E7318CD83CD00F1CC3E /* NSMutableData+VFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+VFoundation.m"; sourceTree = "<group>"; };
+		43972E7518CD83DD00F1CC3E /* NSDate+VFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+VFoundation.h"; sourceTree = "<group>"; };
+		43972E7618CD83DD00F1CC3E /* NSDate+VFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+VFoundation.m"; sourceTree = "<group>"; };
+		43972E7818CD840600F1CC3E /* NSURL+VFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+VFoundation.h"; sourceTree = "<group>"; };
+		43972E7918CD840600F1CC3E /* NSURL+VFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+VFoundation.m"; sourceTree = "<group>"; };
+		43972E7B18CD841800F1CC3E /* NSMutableURLRequest+VFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+VFoundation.h"; sourceTree = "<group>"; };
+		43972E7C18CD841800F1CC3E /* NSMutableURLRequest+VFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+VFoundation.m"; sourceTree = "<group>"; };
+		43972E7E18CD843800F1CC3E /* NSURLRequest+VFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+VFoundation.h"; sourceTree = "<group>"; };
+		43972E7F18CD843800F1CC3E /* NSURLRequest+VFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+VFoundation.m"; sourceTree = "<group>"; };
+		43972E8118CD844800F1CC3E /* NSValue+VFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+VFoundation.h"; sourceTree = "<group>"; };
+		43972E8218CD844800F1CC3E /* NSValue+VFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+VFoundation.m"; sourceTree = "<group>"; };
+		43972E8418CD849600F1CC3E /* NSCache+VFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCache+VFoundation.h"; sourceTree = "<group>"; };
+		43972E8518CD849600F1CC3E /* NSCache+VFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCache+VFoundation.m"; sourceTree = "<group>"; };
+		43972E8718CD84AD00F1CC3E /* NSBundle+VFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+VFoundation.h"; sourceTree = "<group>"; };
+		43972E8818CD84AD00F1CC3E /* NSBundle+VFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+VFoundation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +164,7 @@
 		43972E2818CD7E9400F1CC3E /* VFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				43972E4E18CD7EB100F1CC3E /* Category */,
 				43972E2B18CD7E9400F1CC3E /* VFoundation.h */,
 				43972E2D18CD7E9400F1CC3E /* VFoundation.m */,
 				43972E2918CD7E9400F1CC3E /* Supporting Files */,
@@ -141,6 +196,49 @@
 				43972E3F18CD7E9400F1CC3E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43972E4E18CD7EB100F1CC3E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				43972E4F18CD7EFC00F1CC3E /* NSString+VFoundation.h */,
+				43972E5018CD7EFC00F1CC3E /* NSString+VFoundation.m */,
+				43972E5218CD7F4500F1CC3E /* NSMutableString+VFoundation.h */,
+				43972E5318CD7F4500F1CC3E /* NSMutableString+VFoundation.m */,
+				43972E5A18CD832200F1CC3E /* NSArray+VFoundation.h */,
+				43972E5B18CD832200F1CC3E /* NSArray+VFoundation.m */,
+				43972E5D18CD833400F1CC3E /* NSMutableArray+VFoundation.h */,
+				43972E5E18CD833400F1CC3E /* NSMutableArray+VFoundation.m */,
+				43972E6018CD834400F1CC3E /* NSDictionary+VFoundation.h */,
+				43972E6118CD834400F1CC3E /* NSDictionary+VFoundation.m */,
+				43972E6318CD835400F1CC3E /* NSMutableDictionary+VFoundation.h */,
+				43972E6418CD835400F1CC3E /* NSMutableDictionary+VFoundation.m */,
+				43972E6618CD836300F1CC3E /* NSSet+VFoundation.h */,
+				43972E6718CD836300F1CC3E /* NSSet+VFoundation.m */,
+				43972E6918CD837200F1CC3E /* NSMutableSet+VFoundation.h */,
+				43972E6A18CD837200F1CC3E /* NSMutableSet+VFoundation.m */,
+				43972E6C18CD83A000F1CC3E /* NSNumber+VFoundation.h */,
+				43972E6D18CD83A000F1CC3E /* NSNumber+VFoundation.m */,
+				43972E6F18CD83BD00F1CC3E /* NSData+VFoundation.h */,
+				43972E7018CD83BD00F1CC3E /* NSData+VFoundation.m */,
+				43972E7218CD83CD00F1CC3E /* NSMutableData+VFoundation.h */,
+				43972E7318CD83CD00F1CC3E /* NSMutableData+VFoundation.m */,
+				43972E7518CD83DD00F1CC3E /* NSDate+VFoundation.h */,
+				43972E7618CD83DD00F1CC3E /* NSDate+VFoundation.m */,
+				43972E7818CD840600F1CC3E /* NSURL+VFoundation.h */,
+				43972E7918CD840600F1CC3E /* NSURL+VFoundation.m */,
+				43972E7B18CD841800F1CC3E /* NSMutableURLRequest+VFoundation.h */,
+				43972E7C18CD841800F1CC3E /* NSMutableURLRequest+VFoundation.m */,
+				43972E7E18CD843800F1CC3E /* NSURLRequest+VFoundation.h */,
+				43972E7F18CD843800F1CC3E /* NSURLRequest+VFoundation.m */,
+				43972E8118CD844800F1CC3E /* NSValue+VFoundation.h */,
+				43972E8218CD844800F1CC3E /* NSValue+VFoundation.m */,
+				43972E8418CD849600F1CC3E /* NSCache+VFoundation.h */,
+				43972E8518CD849600F1CC3E /* NSCache+VFoundation.m */,
+				43972E8718CD84AD00F1CC3E /* NSBundle+VFoundation.h */,
+				43972E8818CD84AD00F1CC3E /* NSBundle+VFoundation.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +322,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43972E7718CD83DD00F1CC3E /* NSDate+VFoundation.m in Sources */,
+				43972E8918CD84AD00F1CC3E /* NSBundle+VFoundation.m in Sources */,
+				43972E6218CD834400F1CC3E /* NSDictionary+VFoundation.m in Sources */,
+				43972E6E18CD83A000F1CC3E /* NSNumber+VFoundation.m in Sources */,
+				43972E5C18CD832200F1CC3E /* NSArray+VFoundation.m in Sources */,
 				43972E2E18CD7E9400F1CC3E /* VFoundation.m in Sources */,
+				43972E6818CD836300F1CC3E /* NSSet+VFoundation.m in Sources */,
+				43972E5118CD7EFC00F1CC3E /* NSString+VFoundation.m in Sources */,
+				43972E5418CD7F4500F1CC3E /* NSMutableString+VFoundation.m in Sources */,
+				43972E7A18CD840600F1CC3E /* NSURL+VFoundation.m in Sources */,
+				43972E8318CD844800F1CC3E /* NSValue+VFoundation.m in Sources */,
+				43972E5F18CD833400F1CC3E /* NSMutableArray+VFoundation.m in Sources */,
+				43972E8018CD843800F1CC3E /* NSURLRequest+VFoundation.m in Sources */,
+				43972E6518CD835400F1CC3E /* NSMutableDictionary+VFoundation.m in Sources */,
+				43972E8618CD849600F1CC3E /* NSCache+VFoundation.m in Sources */,
+				43972E6B18CD837200F1CC3E /* NSMutableSet+VFoundation.m in Sources */,
+				43972E7118CD83BD00F1CC3E /* NSData+VFoundation.m in Sources */,
+				43972E7418CD83CD00F1CC3E /* NSMutableData+VFoundation.m in Sources */,
+				43972E7D18CD841800F1CC3E /* NSMutableURLRequest+VFoundation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
